@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Proiect Tehnici Web - Goia Adrian Traian CTI 351</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/drumpad.css">
+</head>
+<body>
+
+<header id="header-container">
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Acasa</a>
+        <a href="drumpad.html">Drumpad</a>
+        <a href="form.html">Formular</a>
+        <a href="javascript:void(0);" class="icon fs-15" onclick="myFunction()">&#9776;</a>
+    </nav>
+</header>
+        <section class="container" id="container-drum">
+            <h1 id="title">Drumpad</h1>
+            <div class="row">
+                <div class="box pad-1 column" id="82" onclick="padOne.load();padOne.play();activePad();">R</div>
+                <div class="box pad-2 column" id="84" onclick="padTwo.load();padTwo.play();activePad();">T</div>
+                <div class="box pad-3 column" id="89" onclick="padThree.load();padThree.play();activePad();">Y</div>
+            </div>
+            <div class="row">
+                <div class="box pad-4 column" id="70" onclick="padFour.load();padFour.play();activePad();">F</div>
+                <div class="box pad-5 column" id="71" onclick="padFive.load();padFive.play();activePad();">G</div>
+                <div class="box pad-6 column" id="72" onclick="padSix.load();padSix.play();activePad();">H</div>
+            </div>
+            <div class="row mb-50">
+                <div class="box pad-7 column" id="86" onclick="padSeven.load();padSeven.play();activePad();">V</div>
+                <div class="box pad-8 column" id="66" onclick="padEight.load();padEight.play();activePad();">B</div>
+                <div class="box pad-9 column" id="78" onclick="padNine.load();padNine.play();activePad();">N</div>
+            </div>
+        </section>
+
+<footer class="footer">
+    <p>Goia Adrian Traian - 2017 </p>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="../js/drumpad.js"></script>
+</body>
+</html>
+
+
+

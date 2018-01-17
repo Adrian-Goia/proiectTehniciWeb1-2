@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Proiect Tehnici Web - Goia Adrian Traian CTI 351</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+<header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Acasa</a>
+        <a href="drumpad.html">Drumpad</a>
+        <a href="form.html">Formular</a>
+        <a href="javascript:void(0);" class="icon fs-15" onclick="myFunction()">&#9776;</a>
+    </nav>
+</header>
+
+<section class="row mb-50" id="page-wrapper">
+    <div class="column">
+        <h1>
+            Formular
+        </h1>
+        <form id="ajax-contact" method="post" action="#" onsubmit="formSubmit(event);">
+            <div class="field">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="field">
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <div class="field">
+                <button type="submit">Trimite</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Goia Adrian Traian - 2017 </p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+<script src="../js/form.js"></script>
+</body>
+</html>
+
+
+
